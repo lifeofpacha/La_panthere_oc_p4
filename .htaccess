@@ -1,0 +1,23 @@
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+ # Images
+  ExpiresByType image/jpeg 
+  ExpiresByType image/gif 
+  ExpiresByType image/png 
+  ExpiresByType image/webp 
+  ExpiresByType image/svg+xml 
+  ExpiresByType image/x-icon 
+
+    # Fonts
+  ExpiresByType font/ttf 
+  ExpiresByType font/otf 
+  ExpiresByType font/woff 
+  ExpiresByType font/woff2 
+  ExpiresByType application/font-woff 
+  # CSS, JavaScript
+  ExpiresByType text/css 
+  ExpiresByType text/javascript 
+  ExpiresByType application/javascript 
+
+</IfModule>
